@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  display: grid;
+  margin:50px;
+  grid-template-columns: 1fr 1fr;
 }
-
+.button {
+  width: 100px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
